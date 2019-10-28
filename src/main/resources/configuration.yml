@@ -1,0 +1,39 @@
+version: 1
+
+default:
+  rows: 3
+  pages: 2
+
+inventory:
+  name: "&8Bookshelf ({page}/{pages})"
+  page-change-sound:
+    name: ITEM_BOOK_PAGE_TURN
+    volume: 1.0
+    pitch: 1.0
+
+close-inventory-item:
+  type: BARRIER
+  name: "&eClose"
+  lore:
+  - "&7Click to close"
+  - "&7this inventory."
+  enchantments: {}
+  flags: []
+
+next-page-item:
+  type: ARROW
+  name: "&eNext Page"
+  lore:
+  - "&7Click to go to"
+  - "&7the next page."
+  enchantments: {}
+  flags: []
+
+previous-page-item:
+  type: ARROW
+  name: "&ePrevious Page"
+  lore:
+  - "&7Click to go to"
+  - "&7the previous page."
+  enchantments: {}
+  flags: []
