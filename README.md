@@ -1,4 +1,4 @@
-# BookShelvesPlus
+# BookShelvesPlus [Advanced Bookshelf Storage]
 Minecraft plugin that allows bookshelves to act as a storage system, with configurable rows and pages!
 
 ![banner](https://i.imgur.com/HO9PKW5.png)
