@@ -1,6 +1,8 @@
 version: 1
 
 default:
+  # You can have up to 5 rows. 6th / the next row
+  # is reserved for the page-related items.
   rows: 3
   pages: 2
 

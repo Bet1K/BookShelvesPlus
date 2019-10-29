@@ -17,20 +17,8 @@ java {
 defaultTasks("clean", "build")
 
 migleBukkit {
-	var newName = ""
-	for (newNamePart in project.name.split("-")) {
-		var first = true
-		for (newNamePartCharacter in newNamePart.toCharArray()) {
-			if (first) {
-				first = false
-				newName += newNamePartCharacter.toUpperCase()
-			} else {
-				newName += newNamePartCharacter.toLowerCase()
-			}
-		}
-	}
-	name = newName
-	main = "${project.group}.${project.name.toLowerCase().replace("-", "")}.${newName}Plugin"
+	name = project.name
+	main = "${project.group}.${project.name.toLowerCase()}.${project.name}Plugin"
 	version = project.version as String
 	apiVersion = ApiVersion.VERSION_1_14
 	description = project.description
