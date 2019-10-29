@@ -1,1 +1,1 @@
-rootProject.name = "realistic-bookshelves"
+rootProject.name = "BookShelvesPlus"
